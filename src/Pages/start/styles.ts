@@ -6,7 +6,7 @@ interface ProgressBarProps {
 
 export const Container = styled.div`
     max-width: 100vw;
-    height: 65vh;
+    height: 65dvh;
 
     h1 {
         font-size: 2rem;

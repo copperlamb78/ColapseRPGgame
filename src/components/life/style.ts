@@ -6,7 +6,7 @@ interface ProgressBarProps {
 
 export const VisualStatus = styled.div`
     width: 100vw;
-    height: 5vh;
+    height: 5dvh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
