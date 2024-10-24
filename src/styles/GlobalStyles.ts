@@ -26,5 +26,5 @@ export const GlobalStyle = createGlobalStyle`
 export const AppContainer = styled.div`
     display: flex;
     flex-direction: column;
-    max-height: 100vh;
+    max-height: 100dvh;
 `
