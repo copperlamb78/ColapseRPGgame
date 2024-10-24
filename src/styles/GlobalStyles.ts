@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 // .jacquard-12-regular {
 //   font-family: "Jacquard 12", serif;       Font de inimigo
@@ -20,4 +20,11 @@ export const GlobalStyle = createGlobalStyle`
     body {
         background-color: ${props => props.theme.colors["black"]};
     }
+
+`
+
+export const AppContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 `
