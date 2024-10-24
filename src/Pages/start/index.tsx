@@ -46,9 +46,9 @@ export function Start({ status, diceValue, mana, heroLife, setHeroLife, setMana 
     }, [diceValue])
 
     const images = [
-        // Img_1,
+        Img_1,
         Img_2,
-        // Img_3
+        Img_3
     ]
 
     const [currentIndex, setCurrentIndex] = useState(0)
