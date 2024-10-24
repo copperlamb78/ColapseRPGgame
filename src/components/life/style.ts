@@ -12,6 +12,14 @@ export const VisualStatus = styled.div`
     justify-content: space-between;
     align-items: center;
     padding-bottom: 60%;
+
+    @media(max-width: 375px){
+        padding-bottom: 50%;
+    }
+
+    @media(max-width: 426px){
+        padding-bottom: 10%;
+    }
 `
 
 export const ManaBarContainer = styled.div`
