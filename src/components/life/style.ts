@@ -11,7 +11,7 @@ export const VisualStatus = styled.div`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
+    padding-bottom: 60%;
 `
 
 export const ManaBarContainer = styled.div`
