@@ -1,7 +1,5 @@
 import { Container, EnemyImg, Imagen, LifeEnemyBar, LifeEnemyBarContainer} from "./styles";
-import Img_1 from '../../assets/foto1.png'
 import Img_2 from '../../assets/foto2.png'
-import Img_3 from '../../assets/foto3.jpg'
 import { useEffect, useState } from "react";
 
 interface StatusProps {
@@ -46,9 +44,7 @@ export function Start({ status, diceValue, mana, heroLife, setHeroLife, setMana 
     }, [diceValue])
 
     const images = [
-        Img_1,
         Img_2,
-        Img_3
     ]
 
     const [currentIndex, setCurrentIndex] = useState(0)
