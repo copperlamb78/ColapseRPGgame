@@ -7,6 +7,7 @@ interface ProgressBarProps {
 export const Container = styled.div`
     max-width: 100vw;
     height: 65dvh;
+    
 
     h1 {
         font-size: 2rem;
@@ -18,20 +19,39 @@ export const Container = styled.div`
         font-size: 1rem;
         text-align: center;
     }
+
+    @media (min-width: 560px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 `
 export const Imagen = styled.img`
     width: 100%;
     height: 100%;
+
+    
 `
 
 export const LifeEnemyBarContainer = styled.div`
-    max-width: 70%;
+    width: 70%;
     height: 5%;
     border: 2px solid ${props => props.theme.colors["gray-700"]};
     border-radius: 9999px;
     margin: auto;
     background-color: transparent;
     overflow: hidden;
+    @media (min-width: 560px) and (max-width: 820px) {
+        width: 70%;
+        height: 4vh;
+        margin: 0;
+    }
+    @media (min-width: 821px) {
+        width: 70%;
+        padding: 0;
+        margin: 0;
+    }
 `
 
 export const LifeEnemyBar = styled.div<ProgressBarProps>`
@@ -43,5 +63,25 @@ export const LifeEnemyBar = styled.div<ProgressBarProps>`
 export const EnemyImg = styled.img`
     width: 80vw;
     padding: 10%;
+    
+    @media (min-width: 560px) and (max-width: 768px) {
+        width: 60vw;
+        padding: 0;
+        padding-top: 5%;
+    }
+    @media (min-width: 768px) and (max-width: 820px) {
+        width: 55vw;
+        padding: 0;
+        padding-top: 5%;
+    }
+    @media (min-width: 821px) and (max-width: 1024px) {
+        width: 40vw;
+        padding: 0;
+        padding-top: 5%;
+    }
+    @media(min-width: 1024px) {
+        width: 45vw;
+        padding: 0;
+    }
 `
 

@@ -20,6 +20,7 @@ export const Container = styled.div`
         width: 40%;
 
     }
+
 `
 
 export const StatusButton = styled.button`
@@ -27,7 +28,7 @@ export const StatusButton = styled.button`
     border-radius: 9999px;
     background-color: ${props => props.theme.colors["brown-400"]};
     color: ${props => props.theme.colors["black"]};
-    height: 5vw;
+    height: 1rem;
     transition: background-color 0.2s;
 
     &:hover {

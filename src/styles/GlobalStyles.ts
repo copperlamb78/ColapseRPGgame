@@ -15,6 +15,16 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         font-size: 12;
         font-family: "Silkscreen", sans-serif;
+
+        @media(min-width: 300px) and (max-width: 425px) {
+            font-size: 16px;
+        }
+        @media(min-width: 1440px) {
+            font-size: 20px;
+        }
+        @media(min-width: 1800px){
+            font-size: 32px;
+        }
     }
 
     body {

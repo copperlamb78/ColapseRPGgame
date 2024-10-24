@@ -20,6 +20,15 @@ export const VisualStatus = styled.div`
     @media(max-width: 426px){
         padding-bottom: 10%;
     }
+    @media (min-width: 426px) and (max-width: 768px){
+        padding-bottom: 0;
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+        padding-bottom: 0;
+    }
+    @media (min-width: 1024px) {
+        padding: 0;
+    }
 `
 
 export const ManaBarContainer = styled.div`

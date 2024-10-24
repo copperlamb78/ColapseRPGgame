@@ -81,14 +81,14 @@ export function Footer({status, setStatus, onDiceValueChange }: FooterProps) {
             <div>
                 {showStatus &&(
                     <List>
-                        <li><StatusButton onClick={() => handleStatusChange('hp', 10)}><Plus size={'5vw'}/></StatusButton> HP: {status.hp}</li>
-                        <li><StatusButton onClick={() => handleStatusChange('mp', 5)}><Plus size={'5vw'}/></StatusButton> MP: {status.mp}</li>
-                        <li><StatusButton onClick={() => handleStatusChange('strength', 1)}><Plus size={'5vw'}/></StatusButton> STR: {status.strength}</li>
-                        <li><StatusButton onClick={() => handleStatusChange('defense', 1)}><Plus size={'5vw'}/></StatusButton> DEF: {status.defense}</li>
-                        <li><StatusButton onClick={() => handleStatusChange('intelligence', 1)}><Plus size={'5vw'}/></StatusButton> INT: {status.intelligence}</li>
-                        <li><StatusButton onClick={() => handleStatusChange('agility', 1)}><Plus size={'5vw'}/></StatusButton> AGI: {status.agility}</li>
-                        <li><StatusButton onClick={() => handleStatusChange('luck', 1)}><Plus size={'5vw'}/></StatusButton> LUK: {status.luck}</li>
-                        <li><StatusButton onClick={() => handleStatusChange('endurance', 1)}><Plus size={'5vw'}/></StatusButton> END: {status.endurance}</li>
+                        <li><StatusButton onClick={() => handleStatusChange('hp', 10)}><Plus size={'1rem'}/></StatusButton> HP: {status.hp}</li>
+                        <li><StatusButton onClick={() => handleStatusChange('mp', 5)}><Plus size={'1rem'}/></StatusButton> MP: {status.mp}</li>
+                        <li><StatusButton onClick={() => handleStatusChange('strength', 1)}><Plus size={'1rem'}/></StatusButton> STR: {status.strength}</li>
+                        <li><StatusButton onClick={() => handleStatusChange('defense', 1)}><Plus size={'1rem'}/></StatusButton> DEF: {status.defense}</li>
+                        <li><StatusButton onClick={() => handleStatusChange('intelligence', 1)}><Plus size={'1rem'}/></StatusButton> INT: {status.intelligence}</li>
+                        <li><StatusButton onClick={() => handleStatusChange('agility', 1)}><Plus size={'1rem'}/></StatusButton> AGI: {status.agility}</li>
+                        <li><StatusButton onClick={() => handleStatusChange('luck', 1)}><Plus size={'1rem'}/></StatusButton> LUK: {status.luck}</li>
+                        <li><StatusButton onClick={() => handleStatusChange('endurance', 1)}><Plus size={'1rem'}/></StatusButton> END: {status.endurance}</li>
                     </List>
                 )}
                 {showBag &&(
