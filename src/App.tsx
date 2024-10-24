@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Footer } from "./components/Footer";
 import { Start } from "./Pages/start";
 import { Life } from "./components/life";
+import { AppContainer } from "./styles/GlobalStyles";
 
 interface StatusProps {
   hp: number;
@@ -37,7 +38,7 @@ export function App() {
   }
 
   return (
-    <div>
+    <AppContainer>
       <Start 
         status={status}
         diceValue={diceValue}
@@ -52,7 +53,7 @@ export function App() {
         setStatus={setStatus}
         onDiceValueChange={valueDice} 
       />
-    </div>
+    </AppContainer>
   )
 }
 
