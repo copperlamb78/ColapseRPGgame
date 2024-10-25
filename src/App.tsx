@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Footer } from "./components/footer";
+import { Footer } from "./components/Footer";
 import { Start } from "./Pages/start";
 import { Life } from "./components/life";
 import { AppContainer } from "./styles/GlobalStyles";
